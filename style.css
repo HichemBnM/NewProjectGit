@@ -49,3 +49,7 @@ align-items: center;
                 text-align: center;}
 .content h4{ color:white;
                    text-align: center;}
+.content h2{
+    color: white;
+    text-align: left;
+}
