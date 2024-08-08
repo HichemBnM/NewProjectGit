@@ -130,6 +130,16 @@ b{
     background-color: orange; 
     color: rgb(0, 0, 0);
   }
+.btp {
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    margin-left: 0px;
+  }
+  
+.btp:hover {
+    background-color: orange; 
+    color: rgb(0, 0, 0);
+  }
 .btnk{
     transition-duration: 0.4s;
     border-radius: 60px;
@@ -268,4 +278,17 @@ progress {
               .progress-bar-animated {
                 -webkit-animation: none;
                 animation: none; } }
-          
+form{ margin-left: 70px;}
+input{width: 60%;
+    height: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;}
+  input[type="submit"]{width: 150px;
+                      height: 40px;
+                      }
+  input[type="reset"]{width: 150px;
+                          height: 40px;
+                            }
+  .alignbutton{ margin-left: auto;
+              margin-right: auto;
+              width: 50%;}
